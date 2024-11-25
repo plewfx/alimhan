@@ -288,7 +288,7 @@
                     <img src="src/art.png" alt="">
                     <img src="src/art.png" alt="">
                 </div>
-                <h1>ВИДЕОРОЛИКТЕР</h1>
+                <h1>БІЗ ТУРАЛЫ</h1>
                 <div class="section__art">
                     <img src="src/art.png" alt="">
                     <img src="src/art.png" alt="">
@@ -306,7 +306,7 @@
                     </li>
                     <li>
                         <h3>Жетекшіcі</h3>
-                        <p><i>Жалынбек</i></p>
+                        <p><i>Төреш Жалынбек</i></p>
                         <span>
                             <img src="src/solar_phone-bold.svg" alt="">
                             <a href="tel:8707645848">+7 702 764 5848</a>
@@ -319,6 +319,26 @@
     <footer>
         <p>&copy; Барлық құқықтар қорғалған</p>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const menu = document.querySelector('.header');
+    let lastScrollY = window.scrollY;
+
+    window.addEventListener('scroll', () => {
+        const currentScrollY = window.scrollY;
+
+        if (currentScrollY > lastScrollY) {
+            // Сайтта төмен қарап түскенде - меню жасырынады
+            menu.classList.add('hidden');
+        } else {
+            // Сайтта жоғары қарап көтерілгенде - меню көрінеді
+            menu.classList.remove('hidden');
+        }
+
+        lastScrollY = currentScrollY;
+    });
+});
+    </script>
 </body>
 
 </html>

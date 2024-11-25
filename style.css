@@ -15,6 +15,7 @@ html {
 
 body {
     font-family: "Montserrat", sans-serif;
+    background: linear-gradient(90deg, #7F1010 0%, #C13535 100%);
 }
 
 [class*="__container"] {
@@ -38,10 +39,16 @@ a {
     right: 0;
     z-index: 999;
     box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.25);
+    transform: translateY(0%);
+    transition: .2s;
+}
+
+.header.hidden {
+    transform: translateY(-100%);
 }
 
 .header__container {
-    padding: 25px 0;
+    padding: 20px 0;
 }
 
 .header__nav {
@@ -67,6 +74,10 @@ a {
 
 .header__logo h1 span {
     font-size: 27px;
+}
+
+.header__logo img {
+    width: 60px;
 }
 
 .header__list {
@@ -182,7 +193,7 @@ a {
 }
 
 main {
-    margin-top: 132px;
+    margin-top: 80px;
 }
 
 .slider {
@@ -536,6 +547,10 @@ footer {
         gap: 35px;
     }
 
+    .section__art img {
+        height: 36px;
+    }
+
     .arrow-left {
         left: 40px;
     }
@@ -551,6 +566,10 @@ footer {
 }
 
 @media (max-width: 500px) {
+    .section__header h1 {
+        font-size: 18px;
+    }
+
     .life__body-info p {
         font-size: 18px;
     }
