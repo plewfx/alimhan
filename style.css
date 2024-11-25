@@ -340,7 +340,7 @@ input[type="radio"] {
 .interview {
     border-top: 2px solid #6d6d6d;
     padding: 540px 0 53px 0;
-    background-image: url("/src/interview.gif");
+    background-image: url("src/interview.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
