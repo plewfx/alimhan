@@ -15,7 +15,7 @@ html {
 
 body {
     font-family: "Montserrat", sans-serif;
-    background: linear-gradient(90deg, #7F1010 0%, #C13535 100%);
+    background: #196d35;
 }
 
 [class*="__container"] {
@@ -32,7 +32,7 @@ a {
 }
 
 .header {
-    background: linear-gradient(90deg, #7F1010 0%, #C13535 100%);
+    background: #2a994f;
     position: fixed;
     top: 0;
     left: 0;
@@ -178,7 +178,6 @@ a {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    background: linear-gradient(90deg, #7F1010 0%, #C13535 100%);
 }
 
 .burger__list-item a {
@@ -222,6 +221,7 @@ main {
 }
 
 section {
+    background: #212121;
     position: relative;
     overflow: hidden;
 }
@@ -291,15 +291,15 @@ input[type="radio"] {
 
 .main {
     overflow: hidden;
-    background: linear-gradient(90deg, #7F1010 0%, #C62020 100%);
 }
 
 .section__header {
+    background: #1d7e3d;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
-    padding: 25px 0;
+    padding: 18px 0;
 }
 
 .section__header h1 {
@@ -390,7 +390,6 @@ input[type="radio"] {
 }
 
 .life {
-    background: linear-gradient(90deg, #7F1010 0%, #C62020 100%);
 }
 
 .life__body {
@@ -398,7 +397,6 @@ input[type="radio"] {
     flex-direction: column;
     gap: 50px;
     padding: 70px 0;
-    background: linear-gradient(0deg, #6A1414 0%, #9F3232 50%, #6A1414 100%);
     color: white;
 }
 
@@ -439,11 +437,9 @@ details p {
 }
 
 .videos header {
-    background: linear-gradient(90deg, #7F1010 0%, #C62020 100%);
 }
 
 .videos__body {
-    background: linear-gradient(0deg, #6A1414 0%, #9F3232 50%, #6A1414 100%);
     padding: 50px 0;
 }
 
@@ -465,11 +461,9 @@ details p {
 }
 
 .contact header {
-    background: linear-gradient(90deg, #7F1010 0%, #C62020 100%);
 }
 
 .contact {
-    background: linear-gradient(0deg, #6A1414 0%, #9F3232 50%, #6A1414 100%);
     color: white;
 }
 
@@ -514,9 +508,9 @@ details p {
 }
 
 footer {
+    background: #196d35;
     padding: 25px 0;
     text-align: center;
-    background: linear-gradient(90deg, #7F1010 0%, #C62020 100%);
     color: white;
     font-weight: 500;
 }
